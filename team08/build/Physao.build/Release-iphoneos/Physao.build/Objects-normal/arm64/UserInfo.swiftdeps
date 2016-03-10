@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserInfo"
+provides-nominal:
+- "C6Physao8UserInfo"
+provides-member:
+- ["C6Physao8UserInfo", ""]
+provides-dynamic-lookup:
+- "userName"
+- "userId"
+- "password"
+depends-top-level:
+- "NSObject"
+- "Int"
+- "String"
+- "UserInfo"
+depends-member:
+- ["PSs9AnyObject", "String"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "password"]
+- ["PSs9AnyObject", "userId"]
+- ["PSs9AnyObject", "userName"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "String"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "password"]
+- ["PSs11CVarArgType", "userId"]
+- ["PSs11CVarArgType", "userName"]
+- ["PSs11CVarArgType", ""]
+- ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "String"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "password"]
+- ["PSs23CustomStringConvertible", "userId"]
+- ["PSs23CustomStringConvertible", "userName"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "String"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "password"]
+- ["PSs9Equatable", "userId"]
+- ["PSs9Equatable", "userName"]
+- ["PSs9Equatable", ""]
+- ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["PSs8Hashable", "String"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "password"]
+- ["PSs8Hashable", "userId"]
+- ["PSs8Hashable", "userName"]
+- ["PSs8Hashable", ""]
+- ["PSs14MirrorPathType", "init"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "userId"]
+- ["CSo8NSObject", "userName"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "password"]
+- ["PSo16NSObjectProtocol", "userId"]
+- ["PSo16NSObjectProtocol", "userName"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs16OutputStreamType", "init"]
+- ["PSs10Streamable", "init"]
+- ["SS", "init"]
+- ["PSs30StringInterpolationConvertible", "init"]
+- ["PSs24StringLiteralConvertible", "init"]
+- ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C6Physao8UserInfo", "Int"]
+- ["C6Physao8UserInfo", "String"]
+- ["C6Physao8UserInfo", "deinit"]
+- ["C6Physao8UserInfo", "init"]
+- ["C6Physao8UserInfo", "password"]
+- ["C6Physao8UserInfo", "userId"]
+- ["C6Physao8UserInfo", "userName"]
+- ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "PSs8Hashable"
+- "PSs14MirrorPathType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs16OutputStreamType"
+- "PSs10Streamable"
+- "SS"
+- "PSs30StringInterpolationConvertible"
+- "PSs24StringLiteralConvertible"
+- "PSs31UnicodeScalarLiteralConvertible"
+- "C6Physao8UserInfo"
+- "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "PSs32_BuiltinStringLiteralConvertible"
+- "PSs37_BuiltinUTF16StringLiteralConvertible"
+- "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Physao-Bridging-Header.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDB.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabase.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sqlite3.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMResultSet.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabasePool.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabaseAdditions.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFURL.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFTask.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFDefines.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/Bolts.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Modules/module.modulemap"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFPurchase.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFProduct.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFPush.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFInstallation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFSession.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFRole.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFRelation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFQuery.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFFile.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFConfig.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFCloud.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFObject.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFUser.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFConstants.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFACL.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/Parse.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreBluetooth.swiftmodule"
+interface-hash: "6305996f0a44caff4293c9b9ae71e7bd"

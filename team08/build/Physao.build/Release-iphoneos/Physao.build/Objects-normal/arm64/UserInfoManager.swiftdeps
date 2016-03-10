@@ -1,0 +1,647 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "sharedInstance"
+- "healthKitSharedInstance"
+- "UserInfoManager"
+provides-nominal:
+- "C6Physao15UserInfoManager"
+provides-member:
+- ["C6Physao15UserInfoManager", ""]
+provides-dynamic-lookup:
+- "getInstance"
+- "addUserInfoData"
+- "printArray"
+- "logInFunction"
+- "printString"
+- "getAllUserInfo"
+- "saveNewFriend"
+depends-top-level:
+- !private "!="
+- "HKHealthStore"
+- !private "=="
+- "Bool"
+- "PhysaoDataPoint"
+- !private "PhysaoQuery"
+- !private "PhysaoSampleType"
+- !private "print"
+- !private "StringLiteralType"
+- "NSObject"
+- "sharedInstance"
+- "UserInfo"
+- !private "NSError"
+- "UserInfoManager"
+- "FMDatabase"
+- !private "FMResultSet"
+- !private "BooleanLiteralType"
+- !private "Void"
+- !private "NSDate"
+- "Double"
+- "String"
+- "healthKitSharedInstance"
+- !private "+"
+- "Patient"
+- !private "Util"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["PSs9AnyObject", "FMDatabase"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "Patient"]
+- !private ["PSs9AnyObject", "PhysaoDataPoint"]
+- !private ["PSs9AnyObject", "PhysaoQuery"]
+- !private ["PSs9AnyObject", "PhysaoSampleType"]
+- !private ["PSs9AnyObject", "UserInfo"]
+- !private ["PSs9AnyObject", "Util"]
+- ["PSs9AnyObject", "addUserInfoData"]
+- !private ["PSs9AnyObject", "buildRatioList"]
+- !private ["PSs9AnyObject", "database"]
+- !private ["PSs9AnyObject", "distantFuture"]
+- !private ["PSs9AnyObject", "distantPast"]
+- !private ["PSs9AnyObject", "execute"]
+- ["PSs9AnyObject", "getAllDate"]
+- ["PSs9AnyObject", "getAllFriends"]
+- ["PSs9AnyObject", "getAllUserInfo"]
+- ["PSs9AnyObject", "getHKData"]
+- ["PSs9AnyObject", "getInstance"]
+- !private ["PSs9AnyObject", "healthKitSharedInstance"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "logInFunction"]
+- !private ["PSs9AnyObject", "password"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "printArray"]
+- ["PSs9AnyObject", "printString"]
+- ["PSs9AnyObject", "saveNewFriend"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "userName"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "FMDatabase"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSDate"]
+- !private ["PSs11CVarArgType", "Patient"]
+- !private ["PSs11CVarArgType", "PhysaoDataPoint"]
+- !private ["PSs11CVarArgType", "PhysaoQuery"]
+- !private ["PSs11CVarArgType", "PhysaoSampleType"]
+- !private ["PSs11CVarArgType", "UserInfo"]
+- !private ["PSs11CVarArgType", "Util"]
+- ["PSs11CVarArgType", "addUserInfoData"]
+- !private ["PSs11CVarArgType", "buildRatioList"]
+- !private ["PSs11CVarArgType", "database"]
+- !private ["PSs11CVarArgType", "distantFuture"]
+- !private ["PSs11CVarArgType", "distantPast"]
+- !private ["PSs11CVarArgType", "execute"]
+- ["PSs11CVarArgType", "getAllDate"]
+- ["PSs11CVarArgType", "getAllFriends"]
+- ["PSs11CVarArgType", "getAllUserInfo"]
+- ["PSs11CVarArgType", "getHKData"]
+- ["PSs11CVarArgType", "getInstance"]
+- !private ["PSs11CVarArgType", "healthKitSharedInstance"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "logInFunction"]
+- !private ["PSs11CVarArgType", "password"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "printArray"]
+- ["PSs11CVarArgType", "printString"]
+- ["PSs11CVarArgType", "saveNewFriend"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "userName"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "FMDatabase"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSDate"]
+- !private ["PSs23CustomStringConvertible", "Patient"]
+- !private ["PSs23CustomStringConvertible", "PhysaoDataPoint"]
+- !private ["PSs23CustomStringConvertible", "PhysaoQuery"]
+- !private ["PSs23CustomStringConvertible", "PhysaoSampleType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UserInfo"]
+- !private ["PSs23CustomStringConvertible", "Util"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- ["PSs23CustomStringConvertible", "addUserInfoData"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "buildRatioList"]
+- !private ["PSs23CustomStringConvertible", "database"]
+- !private ["PSs23CustomStringConvertible", "distantFuture"]
+- !private ["PSs23CustomStringConvertible", "distantPast"]
+- !private ["PSs23CustomStringConvertible", "execute"]
+- ["PSs23CustomStringConvertible", "getAllDate"]
+- ["PSs23CustomStringConvertible", "getAllFriends"]
+- ["PSs23CustomStringConvertible", "getAllUserInfo"]
+- ["PSs23CustomStringConvertible", "getHKData"]
+- ["PSs23CustomStringConvertible", "getInstance"]
+- !private ["PSs23CustomStringConvertible", "healthKitSharedInstance"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "logInFunction"]
+- !private ["PSs23CustomStringConvertible", "password"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "printArray"]
+- ["PSs23CustomStringConvertible", "printString"]
+- ["PSs23CustomStringConvertible", "saveNewFriend"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "userName"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "FEV1"]
+- !private ["PSs9Equatable", "FMDatabase"]
+- !private ["PSs9Equatable", "FVC"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSDate"]
+- !private ["PSs9Equatable", "PEFR"]
+- !private ["PSs9Equatable", "Patient"]
+- !private ["PSs9Equatable", "PhysaoDataPoint"]
+- !private ["PSs9Equatable", "PhysaoQuery"]
+- !private ["PSs9Equatable", "PhysaoSampleType"]
+- !private ["PSs9Equatable", "UserInfo"]
+- !private ["PSs9Equatable", "Util"]
+- ["PSs9Equatable", "addUserInfoData"]
+- !private ["PSs9Equatable", "buildRatioList"]
+- !private ["PSs9Equatable", "database"]
+- !private ["PSs9Equatable", "distantFuture"]
+- !private ["PSs9Equatable", "distantPast"]
+- !private ["PSs9Equatable", "execute"]
+- ["PSs9Equatable", "getAllDate"]
+- ["PSs9Equatable", "getAllFriends"]
+- ["PSs9Equatable", "getAllUserInfo"]
+- ["PSs9Equatable", "getHKData"]
+- ["PSs9Equatable", "getInstance"]
+- !private ["PSs9Equatable", "healthKitSharedInstance"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "logInFunction"]
+- !private ["PSs9Equatable", "password"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "printArray"]
+- ["PSs9Equatable", "printString"]
+- ["PSs9Equatable", "saveNewFriend"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "userName"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- ["CSo13HKHealthStore", "init"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "FEV1"]
+- !private ["PSs8Hashable", "FMDatabase"]
+- !private ["PSs8Hashable", "FVC"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSDate"]
+- !private ["PSs8Hashable", "PEFR"]
+- !private ["PSs8Hashable", "Patient"]
+- !private ["PSs8Hashable", "PhysaoDataPoint"]
+- !private ["PSs8Hashable", "PhysaoQuery"]
+- !private ["PSs8Hashable", "PhysaoSampleType"]
+- !private ["PSs8Hashable", "UserInfo"]
+- !private ["PSs8Hashable", "Util"]
+- ["PSs8Hashable", "addUserInfoData"]
+- !private ["PSs8Hashable", "buildRatioList"]
+- !private ["PSs8Hashable", "database"]
+- !private ["PSs8Hashable", "distantFuture"]
+- !private ["PSs8Hashable", "distantPast"]
+- !private ["PSs8Hashable", "execute"]
+- ["PSs8Hashable", "getAllDate"]
+- ["PSs8Hashable", "getAllFriends"]
+- ["PSs8Hashable", "getAllUserInfo"]
+- ["PSs8Hashable", "getHKData"]
+- ["PSs8Hashable", "getInstance"]
+- !private ["PSs8Hashable", "healthKitSharedInstance"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "logInFunction"]
+- !private ["PSs8Hashable", "password"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "printArray"]
+- ["PSs8Hashable", "printString"]
+- ["PSs8Hashable", "saveNewFriend"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "userName"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "init"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "distantFuture"]
+- !private ["PSo8NSCoding", "distantPast"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "distantFuture"]
+- !private ["PSo9NSCopying", "distantPast"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSDate", "distantFuture"]
+- !private ["CSo6NSDate", "distantPast"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "FMDatabase"]
+- !private ["CSo8NSObject", "FMResultSet"]
+- !private ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "Patient"]
+- ["CSo8NSObject", "PhysaoDataPoint"]
+- !private ["CSo8NSObject", "PhysaoQuery"]
+- !private ["CSo8NSObject", "PhysaoSampleType"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UserInfo"]
+- ["CSo8NSObject", "UserInfoManager"]
+- !private ["CSo8NSObject", "Util"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "addUserInfoData"]
+- !private ["CSo8NSObject", "buildRatioList"]
+- !private ["CSo8NSObject", "database"]
+- !private ["CSo8NSObject", "distantFuture"]
+- !private ["CSo8NSObject", "distantPast"]
+- !private ["CSo8NSObject", "execute"]
+- ["CSo8NSObject", "getAllDate"]
+- ["CSo8NSObject", "getAllFriends"]
+- ["CSo8NSObject", "getAllUserInfo"]
+- ["CSo8NSObject", "getHKData"]
+- ["CSo8NSObject", "getInstance"]
+- !private ["CSo8NSObject", "healthKitSharedInstance"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "logInFunction"]
+- !private ["CSo8NSObject", "password"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "printArray"]
+- ["CSo8NSObject", "printString"]
+- ["CSo8NSObject", "saveNewFriend"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "userName"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "FMDatabase"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "Patient"]
+- !private ["PSo16NSObjectProtocol", "PhysaoDataPoint"]
+- !private ["PSo16NSObjectProtocol", "PhysaoQuery"]
+- !private ["PSo16NSObjectProtocol", "PhysaoSampleType"]
+- !private ["PSo16NSObjectProtocol", "UserInfo"]
+- !private ["PSo16NSObjectProtocol", "Util"]
+- ["PSo16NSObjectProtocol", "addUserInfoData"]
+- !private ["PSo16NSObjectProtocol", "buildRatioList"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- !private ["PSo16NSObjectProtocol", "distantFuture"]
+- !private ["PSo16NSObjectProtocol", "distantPast"]
+- !private ["PSo16NSObjectProtocol", "execute"]
+- ["PSo16NSObjectProtocol", "getAllDate"]
+- ["PSo16NSObjectProtocol", "getAllFriends"]
+- ["PSo16NSObjectProtocol", "getAllUserInfo"]
+- ["PSo16NSObjectProtocol", "getHKData"]
+- ["PSo16NSObjectProtocol", "getInstance"]
+- !private ["PSo16NSObjectProtocol", "healthKitSharedInstance"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "logInFunction"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "printArray"]
+- ["PSo16NSObjectProtocol", "printString"]
+- ["PSo16NSObjectProtocol", "saveNewFriend"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "userName"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "distantFuture"]
+- !private ["PSo14NSSecureCoding", "distantPast"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs16OutputStreamType", "init"]
+- ["C6Physao7Patient", "deinit"]
+- !private ["C6Physao11PhysaoQuery", "buildRatioList"]
+- !private ["C6Physao11PhysaoQuery", "execute"]
+- !private ["C6Physao11PhysaoQuery", "init"]
+- !private ["O6Physao16PhysaoSampleType", "FEV1"]
+- !private ["O6Physao16PhysaoSampleType", "FVC"]
+- !private ["O6Physao16PhysaoSampleType", "PEFR"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C6Physao8UserInfo", "init"]
+- !private ["C6Physao8UserInfo", "password"]
+- !private ["C6Physao8UserInfo", "userName"]
+- ["C6Physao15UserInfoManager", "Bool"]
+- ["C6Physao15UserInfoManager", "Double"]
+- ["C6Physao15UserInfoManager", "FMDatabase"]
+- !private ["C6Physao15UserInfoManager", "FMResultSet"]
+- !private ["C6Physao15UserInfoManager", "NSDate"]
+- !private ["C6Physao15UserInfoManager", "NSError"]
+- ["C6Physao15UserInfoManager", "Patient"]
+- ["C6Physao15UserInfoManager", "PhysaoDataPoint"]
+- !private ["C6Physao15UserInfoManager", "PhysaoQuery"]
+- !private ["C6Physao15UserInfoManager", "PhysaoSampleType"]
+- ["C6Physao15UserInfoManager", "String"]
+- ["C6Physao15UserInfoManager", "UserInfo"]
+- ["C6Physao15UserInfoManager", "UserInfoManager"]
+- !private ["C6Physao15UserInfoManager", "Util"]
+- !private ["C6Physao15UserInfoManager", "Void"]
+- ["C6Physao15UserInfoManager", "addUserInfoData"]
+- !private ["C6Physao15UserInfoManager", "database"]
+- ["C6Physao15UserInfoManager", "deinit"]
+- ["C6Physao15UserInfoManager", "getAllDate"]
+- ["C6Physao15UserInfoManager", "getAllFriends"]
+- ["C6Physao15UserInfoManager", "getAllUserInfo"]
+- ["C6Physao15UserInfoManager", "getHKData"]
+- ["C6Physao15UserInfoManager", "getInstance"]
+- !private ["C6Physao15UserInfoManager", "healthKitSharedInstance"]
+- ["C6Physao15UserInfoManager", "init"]
+- ["C6Physao15UserInfoManager", "logInFunction"]
+- !private ["C6Physao15UserInfoManager", "print"]
+- ["C6Physao15UserInfoManager", "printArray"]
+- ["C6Physao15UserInfoManager", "printString"]
+- ["C6Physao15UserInfoManager", "saveNewFriend"]
+- !private ["C6Physao15UserInfoManager", "sharedInstance"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "distantFuture"]
+- !private ["PSs12_Reflectable", "distantPast"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "CSo13HKHealthStore"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16OutputStreamType"
+- "C6Physao7Patient"
+- !private "C6Physao11PhysaoQuery"
+- !private "O6Physao16PhysaoSampleType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "C6Physao8UserInfo"
+- "C6Physao15UserInfoManager"
+- !private "PSs10_ArrayType"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Physao-Bridging-Header.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDB.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabase.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sqlite3.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMResultSet.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabasePool.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabaseAdditions.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFURL.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFTask.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFDefines.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Headers/Bolts.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Bolts.framework/Modules/module.modulemap"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFPurchase.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFProduct.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFPush.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFInstallation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFSession.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFRole.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFRelation.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFQuery.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFFile.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFConfig.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFCloud.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFObject.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFUser.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFConstants.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/PFACL.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Headers/Parse.h"
+- "/Users/KEVIN_HAO_LI/Desktop/FinalGitRepo_ECE590/team08/Physao/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreBluetooth.swiftmodule"
+interface-hash: "6234003de7a00f25d9b1cbb005ea092e"
